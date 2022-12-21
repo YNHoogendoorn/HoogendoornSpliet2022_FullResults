@@ -1,7 +1,9 @@
 # HoogendoornSpliet2022_FullResults
 Repository containing the full results regarding run instances of Jabali, Rei, Gendreau, and Laporte (2014). These results are from the paper "An improved integer L-shaped method for the vehicle routing problem with stochastic demands" by Hoogendoorn, and Spliet.
 
-The repository contains one Excel sheet, in which the full results are detailed. There are 27 classes of instances with 10 instances each. Each of them is named n_m_f_1_x, where n is the number of customers (including depot), m is the number of routes, f is the average fill rate and x is the instance number (ranging from 0 to 9).
+The .zip file "jabalietal2014_instances" contains the instance files of Jabali et al. (2014). We do not own these files and these are published with permission of the owner.
+
+Next to the .zip file, the repository contains one Excel sheet, in which the full results are detailed. There are 27 classes of instances with 10 instances each. Each of them is named n_m_f_1_x, where n is the number of customers (including depot), m is the number of routes, f is the average fill rate and x is the instance number (ranging from 0 to 9).
 
 Per instance 5 solver settings are run, named "Jab", "BM", "RS", "PRS" and "P+MRS". We refer to our paper for the explanation of the settings. Per instance and per setting, we show 
 1. Sol. Val: the solution value (either optimal or best-known solution, if unavailable);
